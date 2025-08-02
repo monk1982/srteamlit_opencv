@@ -54,7 +54,7 @@ def main():
     else:        
         if cam.isOpened():
             cam.release()        
-        cv.destroyAllWindows()
+        # cv.destroyAllWindows()
         
 
     #camera_image = st.camera_input("Chụp ảnh",label_visibility="collapsed", disabled=not enable)
